@@ -163,3 +163,33 @@ p
   padding-bottom: 0.6%;
   padding-top: 0.6%;
 }
+
+/*Login Page*/
+.login-left
+{
+  border-right: 1px solid #707070;
+}
+
+.login-left .btn-primary
+{
+  background-color: #4E64AD;
+  border-color: #4E64AD;
+  width:60%;
+  border-radius: 100px;
+}
+
+.login-left .btn-danger
+{
+  background-color: #DD4B39;
+  border-color: #DD4B39;
+  width:60%;
+  border-radius: 100px;
+}
+
+.login-left .btn-success
+{
+  background-color: #0274B3;
+  border-color: #0274B3;
+  width:60%;
+  border-radius: 100px;
+}
