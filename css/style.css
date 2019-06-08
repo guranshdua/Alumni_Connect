@@ -193,3 +193,40 @@ p
   width:60%;
   border-radius: 100px;
 }
+
+/*Alumni Index*/
+.affix
+{
+  position:fixed;
+  width: 25%;
+}
+
+.post-news .card-header
+{
+  background-color: #3F93DA
+}
+
+.news .card-container
+{
+  padding-bottom: 20px;
+}
+
+.news .card
+{
+  background-color: #F5F5F5;
+  box-shadow: 1px 4px rgb(0,0,0,0.1);
+}
+
+/*EVENTS PAGE*/
+.events
+{
+  background-image: url("../images/events.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.eventlist .card-container
+{
+  padding-bottom: 20px;
+}

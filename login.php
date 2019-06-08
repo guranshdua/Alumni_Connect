@@ -16,11 +16,11 @@
         <div class="row">
           <div class="col-md-6 login-left order-last order-md-first" style="text-align:center;">
             <br />
-            <button class="btn btn-primary btn-lg"><i class="fab fa-facebook-f fa-lg"></i> &nbsp&nbspLogin with Facebook</button>
+            <button class="btn btn-primary btn-lg" onclick="location.href='./alumni'"><i class="fab fa-facebook-f fa-lg"></i> &nbsp&nbspLogin with Facebook</button>
             <br /><br />
-            <button class="btn btn-danger btn-lg"><i class="fab fa-google fa-lg"></i> &nbsp&nbspLogin with Google</button>
+            <button class="btn btn-danger btn-lg" onclick="location.href='./alumni'"><i class="fab fa-google fa-lg"></i> &nbsp&nbspLogin with Google</button>
             <br /><br />
-            <button class="btn btn-success btn-lg"><i class="fab fa-linkedin fa-lg"></i> &nbsp&nbspLogin with LinkedIn</button>
+            <button class="btn btn-success btn-lg" onclick="location.href='./alumni'"><i class="fab fa-linkedin fa-lg"></i> &nbsp&nbspLogin with LinkedIn</button>
             <br /><br />
             <p>
               <a href="./adminlogin.php">Click here</a> to login to admin dashboard.

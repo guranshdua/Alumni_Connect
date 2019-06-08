@@ -7,10 +7,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="#">HOME</a>
+        <a class="nav-link" href="./index.php">HOME</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">CONTACT</a>
+        <a class="nav-link" href="./contact.php">CONTACT</a>
       </li>
       <li class="nav-item">
         <button class="btn btn-outline-primary" onclick="location.href='./login.php'">Login</button>

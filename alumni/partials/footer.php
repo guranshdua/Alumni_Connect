@@ -2,7 +2,7 @@
   <div class="con">
     <div class="row text-white">
       <div class="col-md-3">
-        <img src=".\images\calogowhite.png" style="width:50%; height:auto;" />
+        <img src="..\images\calogowhite.png" style="width:50%; height:auto;" />
       </div>
       <div class="col-md-3">
         <h4 class="f600">TOOLS</h4>

@@ -23,7 +23,7 @@
                 <label for="Password">Password</label>
                 <input type="password" class="form-control" id="Password" placeholder="Password" required>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" onclick="location.href='./admin'">Submit</button>
               <br /><br />
             </form>
         </div>
