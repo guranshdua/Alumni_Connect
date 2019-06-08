@@ -198,7 +198,8 @@ p
 .affix
 {
   position:fixed;
-  width: 25%;
+  width: 20%;
+  height:100%;
 }
 
 .post-news .card-header
@@ -256,4 +257,14 @@ p
   height: 450px;
   background-repeat: no-repeat;
   background-size:contain;
+}
+
+/*ADMIN DASH*/
+.map .card-body
+{
+  height:500px;
+  background-image: url("../images/map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
