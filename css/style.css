@@ -248,3 +248,12 @@ p
   background-repeat: no-repeat;
   background-size:contain;
 }
+
+/*Donations Page*/
+.donations
+{
+  background-image: url("../images/donations.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
