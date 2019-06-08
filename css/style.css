@@ -230,3 +230,12 @@ p
 {
   padding-bottom: 20px;
 }
+
+/*JOBS PAGE*/
+.jobs
+{
+  background-image: url("../images/jobs.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
