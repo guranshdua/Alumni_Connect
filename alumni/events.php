@@ -13,7 +13,7 @@
        <div class="events">
          <div class="container">
            <h1 class="f900 text-white" style="padding-top:10%; font-size:60px;">EVENTS.</h1>
-           <h1 class="f600 text-white">A STEP CLOSER.</h1>
+           <h1 class="f600 text-white">A step closer.</h1>
          </div>
        </div>
 

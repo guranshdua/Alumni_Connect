@@ -239,3 +239,12 @@ p
   background-repeat: no-repeat;
   background-size:contain;
 }
+
+/*Photo Gallery*/
+.photos
+{
+  background-image: url("../images/photos.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
