@@ -274,3 +274,10 @@ p
   height:150px;
   background-color: #333;
 }
+
+/*Experience Page*/
+.exp .card
+{
+  background-color: #fff;
+  border: 0;
+}
