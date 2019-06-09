@@ -20,9 +20,9 @@
           <img src="../images/home_laptop_1.png"  style="height:30px; border-radius:50px;"/>&nbspGURANSH DUA
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Profile</a>
-          <a class="dropdown-item" href="#">Experience</a>
-          <a class="dropdown-item" href="#">Account</a>
+          <a class="dropdown-item" href="./profile.php">Profile</a>
+          <a class="dropdown-item" href="./exp.php">Experience</a>
+          <a class="dropdown-item" href="./account.php">Account</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="../index.php">Logout</a>
         </div>

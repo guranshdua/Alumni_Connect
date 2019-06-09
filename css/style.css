@@ -266,5 +266,11 @@ p
   background-image: url("../images/map.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
 
+/*PROFILE DASH*/
+.profile-home
+{
+  height:150px;
+  background-color: #333;
 }
