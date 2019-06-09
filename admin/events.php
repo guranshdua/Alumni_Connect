@@ -37,6 +37,58 @@
              <div class="row">
                <div class="col-md-12">
                  <br /><br /><br /><br />
+                 <button class="btn btn-info" style="width:100%; text-align:left;" id="toggle-button">Create a new Event</button>
+                 <div class='card-container d-none' id="form-container">
+                   <br />
+                   <div class="card ml-auto mr-auto " style="width:100%;">
+                     <div class="card-body">
+                       <form>
+                         <div class="form-group row">
+                          <label for="EventName" class="col-sm-3 col-form-label">Event Name</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" id="EventName" placeholder="Event Name">
+                          </div>
+                         </div>
+                         <div class="form-group row">
+                           <label for="Organisation" class="col-sm-3 col-form-label">Conducting Authority</label>
+                           <div class="col-sm-9">
+                           <input type="text" class="form-control" id="Organisation" placeholder="Chapter/Organisation">
+                         </div>
+                       </div>
+                       <div class="form-group row">
+                        <label for="Location" class="col-sm-3 col-form-label">Location</label>
+                        <div class="col-sm-9">
+                          <input type="text" class="form-control" id="Location" placeholder="Location">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                       <label for="DateApply" class="col-sm-3 col-form-label">Last Date </label>
+                       <div class="col-sm-9">
+                         <input type="text" class="form-control" id="DateApply" placeholder="Last Date to Apply">
+                       </div>
+                     </div>
+                     <div class="form-group row">
+                      <label for="EventDate" class="col-sm-3 col-form-label">Date</label>
+                      <div class="col-sm-9">
+                        <input type="text" class="form-control" id="EventDate" placeholder="Event Date">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                     <label for="Desc" class="col-sm-3 col-form-label">Description</label>
+                     <div class="col-sm-9">
+                       <input type="text" class="form-control" id="Desc" placeholder="Event Description">
+                     </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Publish</button>
+                      </div>
+                    </div>
+                       </form>
+                     </div>
+                   </div>
+                 </div>
+                 <br />
                  <h2 style="text-align:center;" class="f900">UPCOMING EVENTS</h2>
                  <br />
                  <div class='card-container'>
@@ -182,9 +234,23 @@
             </div>
            </div>
          </div>
-
        </div>
-
      </div>
+
+     <?php
+     include("./partials/footer.php"); ?>
+     <script>
+     $(document).ready(function()
+     {
+      $("#toggle-button").click(function(){
+        if($("#form-container").hasClass("d-none")){
+          $("#form-container").removeClass("d-none");
+        }
+        else {
+          $("#form-container").addClass("d-none");
+        }
+      })
+     });
+     </script>
    </body>
    </html>
